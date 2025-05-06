@@ -1,3 +1,5 @@
+import Projects from "./Projects";
+
 export default function Home() {
     return (
       <section className="flex flex-col items-center gap-4 py-20">
@@ -14,7 +16,7 @@ export default function Home() {
                      border-brand bg-brand/10 text-brand hover:bg-indigo-100 dark:bg-indigo-600/20
                      dark:text-indigo-200"
         >
-          View projects
+          <Projects />
         </a>
       </section>
     );
