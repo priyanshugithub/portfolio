@@ -1,6 +1,6 @@
 import { links } from "./Links";
   
-  export default function DesktopNav({ className = "" }) {
+export default function DesktopNav({ className = "" }) {
     return (
       <nav className={`items-center gap-6 ${className}`}>
         {links.map((l) => (

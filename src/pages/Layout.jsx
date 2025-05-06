@@ -1,8 +1,8 @@
-import Header from "../components/Header.jsx";
+import Header from "./Header";
 
 export default function Layout({ children }) {
   return (
-    <div className={dark ? "dark" : ""}>
+    <div className="dark">
       <Header />
       <main className="min-h-screen …">{children}</main>
     </div>

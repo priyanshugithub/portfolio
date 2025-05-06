@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { DesktopNav } from "./DesktopNav";
-import { MobileNav }  from "./MobileNav";
+import DesktopNav from "../components/DesktopNav";
+import MobileNav  from "../components/MobileNav";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -8,12 +8,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between
                        bg-white/80 px-6 py-4 backdrop-blur-md shadow-sm
-                       dark:bg-slate-800/60">
+                       dark:bg-indigo-300">
       <h1 className="text-xl font-bold text-indigo-600 dark:text-indigo-300">
         Priyanshu.dev
       </h1>
 
-      <DesktopNav className="hidden md:flex" />
+      <DesktopNav className="" />
 
       {/* Hamburger */}
       <button
