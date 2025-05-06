@@ -2,13 +2,13 @@ import { links } from "./Links";
   
 export default function DesktopNav({ className = "" }) {
     return (
-      <nav className={`items-center gap-6 ${className}`}>
+      <nav className={`flex items-center gap-8 ${className}`}>
         {links.map((l) => (
           <a
             key={l.href}
             href={l.href}
-            className="text-sm font-medium text-slate-700 hover:text-indigo-600
-                       dark:text-slate-200 dark:hover:text-indigo-300"
+            className="text-base font-semibold text-slate-900 hover:text-brand
+                      dark:text-white dark:hover:text-brand-dark"
           >
             {l.label}
           </a>

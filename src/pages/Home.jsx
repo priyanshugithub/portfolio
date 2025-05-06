@@ -10,8 +10,8 @@ export default function Home() {
         </p>
         <a
           href="#projects"
-          className="rounded-xl border border-indigo-500 bg-indigo-50 px-5 py-2
-                     text-indigo-700 hover:bg-indigo-100 dark:bg-indigo-600/20
+          className="rounded-xl border px-5 py-2
+                     border-brand bg-brand/10 text-brand hover:bg-indigo-100 dark:bg-indigo-600/20
                      dark:text-indigo-200"
         >
           View projects
